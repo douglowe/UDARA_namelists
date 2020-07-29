@@ -51,7 +51,7 @@
  e_sn                                = 181,    91,   91, 
  e_vert                              = 39,     39,   39,  
  p_top_requested                     = 5000,
- num_metgrid_levels                  = 38,
+ num_metgrid_levels                  = 31,
  num_metgrid_soil_levels             = 3,
  s_we                                = 1,      1,     1, 
  s_sn                                = 1,      1,     1, 
