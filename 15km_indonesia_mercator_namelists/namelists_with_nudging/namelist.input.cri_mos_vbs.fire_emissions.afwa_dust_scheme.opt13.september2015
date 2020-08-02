@@ -76,7 +76,7 @@
  naer                                = 1e9
  ra_lw_physics                       = 4,     4,     4, 
  ra_sw_physics                       = 4,     4,     4, 
- radt                                = 30,    30,    15,
+ radt                                = 30,    15,    15,
  sf_sfclay_physics                   = 2,     2,     2, 
  sf_surface_physics                  = 2,     2,     2, 
  bl_pbl_physics                      = 2,     2,     2, 
@@ -172,10 +172,10 @@
 
  &chem
  kemit                               = 6,
- chem_opt                            = 621,   621,  621,
- bioemdt                             = 60,  15,  15,
- photdt                              = 60,  15,  15,
- chemdt                              = 30,  5,   5, 
+ chem_opt                            = 622,   622,  622,
+ bioemdt                             = 30,  15,  15,
+ photdt                              = 30,  15,  15,
+ chemdt                              = 15,  7.5, 7.5, 
  io_style_emissions                  = 1,
  emiss_inpt_opt                      = 122,      122,   122, 
  emiss_opt                           = 26,       26,    26,  
@@ -208,6 +208,8 @@
  vbs_emissions                       = 2,
  bb_vbs_scale                        = 3.0 ,
  an_vbs_scale                        = 3.0 ,
+ bb_oxidate_frac                     = 0.075,
+ an_oxidate_frac                     = 0.075,
  scale_fire_emiss                    = .true., .true., .true.,
  bbinjectscheme                      = 2,
  bb_vbs_agerate                      = 1e-11,
